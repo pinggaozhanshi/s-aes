@@ -1,0 +1,50 @@
+[
+  {
+    "plaintext": "",
+    "plaintext_bytes": 0,
+    "padded_hex": "0202",
+    "ciphertext_hex": "23DF",
+    "ciphertext_escaped": "#\\xdf",
+    "recovered": ""
+  },
+  {
+    "plaintext": "A",
+    "plaintext_bytes": 1,
+    "padded_hex": "4101",
+    "ciphertext_hex": "074F",
+    "ciphertext_escaped": "\\x07O",
+    "recovered": "A"
+  },
+  {
+    "plaintext": "AB",
+    "plaintext_bytes": 2,
+    "padded_hex": "41420202",
+    "ciphertext_hex": "7B3D23DF",
+    "ciphertext_escaped": "{=#\\xdf",
+    "recovered": "AB"
+  },
+  {
+    "plaintext": "ABC",
+    "plaintext_bytes": 3,
+    "padded_hex": "41424301",
+    "ciphertext_hex": "7B3D09CF",
+    "ciphertext_escaped": "{=\\t\\xcf",
+    "recovered": "ABC"
+  },
+  {
+    "plaintext": "Hello S-AES!",
+    "plaintext_bytes": 12,
+    "padded_hex": "48656C6C6F20532D414553210202",
+    "ciphertext_hex": "E90156CD0E56B7E4EB31D7E223DF",
+    "ciphertext_escaped": "\\xe9\\x01V\\xcd\\x0eV\\xb7\\xe4\\xeb1\\xd7\\xe2#\\xdf",
+    "recovered": "Hello S-AES!"
+  },
+  {
+    "plaintext": " A\n\t\u0000 ",
+    "plaintext_bytes": 6,
+    "padded_hex": "20410A0900200202",
+    "ciphertext_hex": "1E117525BAC123DF",
+    "ciphertext_escaped": "\\x1e\\x11u%\\xba\\xc1#\\xdf",
+    "recovered": " A\n\t\u0000 "
+  }
+]

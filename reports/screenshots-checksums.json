@@ -1,0 +1,50 @@
+[
+  {
+    "file": "screenshots/01-basic.png",
+    "bytes": 194612,
+    "sha256": "cae76a7ad607669dd7571b72934529e68ff94c63babc0cb96023f885b5a6b7d4",
+    "public_url": "https://github.com/pinggaozhanshi/s-aes/releases/download/report-assets-2026-10-29/01-basic.png"
+  },
+  {
+    "file": "screenshots/03-double.png",
+    "bytes": 220702,
+    "sha256": "d8e347984a7c17bcc822a94782eefa258dab0ae4dfee6a98596cb9e4074453b5",
+    "public_url": "https://github.com/pinggaozhanshi/s-aes/releases/download/report-assets-2026-10-29/03-double.png"
+  },
+  {
+    "file": "screenshots/04-triple.png",
+    "bytes": 224114,
+    "sha256": "e3cd38ee9ec100bf6a675c6918984f6d315520f171967bacb0cbb7c85a74fdb8",
+    "public_url": "https://github.com/pinggaozhanshi/s-aes/releases/download/report-assets-2026-10-29/04-triple.png"
+  },
+  {
+    "file": "screenshots/05-mitm.png",
+    "bytes": 140540,
+    "sha256": "f5d0198ea9d3aa41c01f763704d22fb87632db5295a81dfe490f5c62b1ca0b5b",
+    "public_url": "https://github.com/pinggaozhanshi/s-aes/releases/download/report-assets-2026-10-29/05-mitm.png"
+  },
+  {
+    "file": "screenshots/06-cbc.png",
+    "bytes": 168978,
+    "sha256": "35829644ea1006465d9f12d73ddb4951b617bbfca2b204faf9cbbc9c39291ba6",
+    "public_url": "https://github.com/pinggaozhanshi/s-aes/releases/download/report-assets-2026-10-29/06-cbc.png"
+  },
+  {
+    "file": "screenshots/07-cbc-tamper.png",
+    "bytes": 184734,
+    "sha256": "ab49e29f043e73ed0c688ff3d712c981631990f3758c8b3dbcc7df1023f23cdf",
+    "public_url": "https://github.com/pinggaozhanshi/s-aes/releases/download/report-assets-2026-10-29/07-cbc-tamper.png"
+  },
+  {
+    "file": "screenshots/08-cross-encrypt.jpg",
+    "bytes": 196138,
+    "sha256": "02fb1facccf83d481a0405655c53233aa4cfabce27dbbe9de49cf9639d76902a",
+    "public_url": "https://github.com/pinggaozhanshi/s-aes/releases/download/report-assets-2026-10-29/08-cross-encrypt.jpg"
+  },
+  {
+    "file": "screenshots/09-cross-decrypt.jpg",
+    "bytes": 205404,
+    "sha256": "2001649d1469d614be6bfacfbbf25597736447cb84532496e49a63e2a16430ea",
+    "public_url": "https://github.com/pinggaozhanshi/s-aes/releases/download/report-assets-2026-10-29/09-cross-decrypt.jpg"
+  }
+]

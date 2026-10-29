@@ -1,0 +1,84 @@
+[
+  {
+    "cipher_block_index": 0,
+    "mode": "xor",
+    "value_hex": "0001",
+    "changed_plaintext_blocks": [
+      0,
+      1
+    ],
+    "original_raw_hex": "48656C6C6F20532D41455320434243210202",
+    "modified_ciphertext_hex": "DCD3BC8F61D1FC04C828B26599B9E1544EB0",
+    "modified_raw_hex": "386C6C6D6F20532D41455320434243210202",
+    "original_padding_error": null,
+    "modified_padding_error": null
+  },
+  {
+    "cipher_block_index": 0,
+    "mode": "replace",
+    "value_hex": "DCD3",
+    "changed_plaintext_blocks": [
+      0,
+      1
+    ],
+    "original_raw_hex": "48656C6C6F20532D41455320434243210202",
+    "modified_ciphertext_hex": "DCD3BC8F61D1FC04C828B26599B9E1544EB0",
+    "modified_raw_hex": "386C6C6D6F20532D41455320434243210202",
+    "original_padding_error": null,
+    "modified_padding_error": null
+  },
+  {
+    "cipher_block_index": 3,
+    "mode": "xor",
+    "value_hex": "0001",
+    "changed_plaintext_blocks": [
+      3,
+      4
+    ],
+    "original_raw_hex": "48656C6C6F20532D41455320434243210202",
+    "modified_ciphertext_hex": "DCD2BC8F61D1FC05C828B26599B9E1544EB0",
+    "modified_raw_hex": "48656C6C6F20D32641445320434243210202",
+    "original_padding_error": null,
+    "modified_padding_error": null
+  },
+  {
+    "cipher_block_index": 3,
+    "mode": "replace",
+    "value_hex": "FC05",
+    "changed_plaintext_blocks": [
+      3,
+      4
+    ],
+    "original_raw_hex": "48656C6C6F20532D41455320434243210202",
+    "modified_ciphertext_hex": "DCD2BC8F61D1FC05C828B26599B9E1544EB0",
+    "modified_raw_hex": "48656C6C6F20D32641445320434243210202",
+    "original_padding_error": null,
+    "modified_padding_error": null
+  },
+  {
+    "cipher_block_index": 8,
+    "mode": "xor",
+    "value_hex": "0001",
+    "changed_plaintext_blocks": [
+      8
+    ],
+    "original_raw_hex": "48656C6C6F20532D41455320434243210202",
+    "modified_ciphertext_hex": "DCD2BC8F61D1FC04C828B26599B9E1544EB1",
+    "modified_raw_hex": "48656C6C6F20532D41455320434243211208",
+    "original_padding_error": null,
+    "modified_padding_error": "PKCS#7 填充无效：请核对密钥、IV、密文及填充约定。"
+  },
+  {
+    "cipher_block_index": 8,
+    "mode": "replace",
+    "value_hex": "4EB1",
+    "changed_plaintext_blocks": [
+      8
+    ],
+    "original_raw_hex": "48656C6C6F20532D41455320434243210202",
+    "modified_ciphertext_hex": "DCD2BC8F61D1FC04C828B26599B9E1544EB1",
+    "modified_raw_hex": "48656C6C6F20532D41455320434243211208",
+    "original_padding_error": null,
+    "modified_padding_error": "PKCS#7 填充无效：请核对密钥、IV、密文及填充约定。"
+  }
+]

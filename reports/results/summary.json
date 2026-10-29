@@ -1,0 +1,42 @@
+{
+  "executed_at": "2026-10-27T10:06:25-04:00",
+  "python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+  "os": "Windows-11-10.0.26200-SP0",
+  "tk": 8.6,
+  "tests_run": 31,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "success": true,
+  "real_group_cross_test": "pending",
+  "members": [
+    {
+      "name": "季冬阳",
+      "student_id": "2024501"
+    },
+    {
+      "name": "待定"
+    },
+    {
+      "name": "待定"
+    }
+  ],
+  "attack_summary": [
+    {
+      "pair_count": 1,
+      "candidate_count": 65046,
+      "elapsed_seconds": 0.40797559999964506
+    },
+    {
+      "pair_count": 2,
+      "candidate_count": 3,
+      "elapsed_seconds": 0.7670037999996566
+    },
+    {
+      "pair_count": 3,
+      "candidate_count": 1,
+      "elapsed_seconds": 0.84933860000001
+    }
+  ],
+  "source_commit": "4206e2c2b69bcc2905d61b00f9a4e1ebbedff081"
+}

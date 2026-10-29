@@ -1,0 +1,64 @@
+{
+  "source": "user-provided screenshots",
+  "records": [
+    {
+      "operation": "encrypt",
+      "key_hex": "2D55",
+      "format": "16-bit HEX, no padding",
+      "input_hex": "A749",
+      "output_hex": "C349",
+      "comparison_with_local_result": "equal",
+      "evidence_file": "screenshots/08-cross-encrypt.jpg",
+      "original_filename": "codex-clipboard-8e353c26-7df2-487e-814a-829f2b47bd76.jpg",
+      "sha256": "02fb1facccf83d481a0405655c53233aa4cfabce27dbbe9de49cf9639d76902a",
+      "received_on": "2026-10-29",
+      "execution_date": null,
+      "group_name": null,
+      "independent_implementation_confirmed": null,
+      "participant_name": "张琨奕",
+      "student_id": "20240541",
+      "same_group_as_local_participant": true,
+      "different_program_confirmed": true,
+      "program_version": null,
+      "public_url": "https://github.com/pinggaozhanshi/s-aes/releases/download/report-assets-2026-10-29/08-cross-encrypt.jpg"
+    },
+    {
+      "operation": "decrypt",
+      "key_hex": "2D55",
+      "format": "16-bit HEX, no padding",
+      "input_hex": "C349",
+      "output_hex": "A749",
+      "comparison_with_local_result": "equal",
+      "evidence_file": "screenshots/09-cross-decrypt.jpg",
+      "original_filename": "codex-clipboard-e73e09b4-c211-4320-a8c0-adf8cf82a227.jpg",
+      "sha256": "2001649d1469d614be6bfacfbbf25597736447cb84532496e49a63e2a16430ea",
+      "received_on": "2026-10-29",
+      "execution_date": null,
+      "group_name": null,
+      "independent_implementation_confirmed": null,
+      "participant_name": "张琨奕",
+      "student_id": "20240541",
+      "same_group_as_local_participant": true,
+      "different_program_confirmed": true,
+      "program_version": null,
+      "public_url": "https://github.com/pinggaozhanshi/s-aes/releases/download/report-assets-2026-10-29/09-cross-decrypt.jpg"
+    }
+  ],
+  "test_scope": "same-group comparison using different programs",
+  "participants": [
+    {
+      "name": "季冬阳",
+      "student_id": "2024501",
+      "program_role": "local program"
+    },
+    {
+      "name": "张琨奕",
+      "student_id": "20240541",
+      "program_role": "other program shown in supplied screenshots"
+    }
+  ],
+  "same_group_confirmed": true,
+  "different_programs_confirmed": true,
+  "other_group_test_completed": false,
+  "confirmation_source": "user clarification in this chat on 2026-10-29"
+}

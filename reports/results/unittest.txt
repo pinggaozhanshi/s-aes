@@ -1,0 +1,36 @@
+test_cancel_during_forward_and_backward_then_restart (test_acceptance.AttackAcceptance.test_cancel_during_forward_and_backward_then_restart) ... ok
+test_contradictory_pairs_have_no_key (test_acceptance.AttackAcceptance.test_contradictory_pairs_have_no_key) ... ok
+test_empty_invalid_pairs_and_pre_cancel (test_acceptance.AttackAcceptance.test_empty_invalid_pairs_and_pre_cancel) ... ok
+test_full_single_pair_preserves_collisions_and_real_key (test_acceptance.AttackAcceptance.test_full_single_pair_preserves_collisions_and_real_key) ... ok
+test_full_three_pairs_and_progress (test_acceptance.AttackAcceptance.test_full_three_pairs_and_progress) ... ok
+test_all_blocks_for_three_keys_and_bijection (test_acceptance.CoreAcceptance.test_all_blocks_for_three_keys_and_bijection) ... ok
+test_all_keys_for_fixed_plaintext (test_acceptance.CoreAcceptance.test_all_keys_for_fixed_plaintext) ... ok
+test_polynomial_multiplication_all_256_pairs (test_acceptance.CoreAcceptance.test_polynomial_multiplication_all_256_pairs) ... ok
+test_published_vector_and_each_stage (test_acceptance.CoreAcceptance.test_published_vector_and_each_stage) ... ok
+test_reference_implementation_2048_samples (test_acceptance.CoreAcceptance.test_reference_implementation_2048_samples) ... ok
+test_reject_out_of_range_and_noninteger_blocks_keys (test_acceptance.CoreAcceptance.test_reject_out_of_range_and_noninteger_blocks_keys) ... ok
+test_second_known_vector (test_acceptance.CoreAcceptance.test_second_known_vector) ... ok
+test_transform_inverses_all_65536_states (test_acceptance.CoreAcceptance.test_transform_inverses_all_65536_states) ... ok
+test_byte_order_and_ascii_control_characters (test_acceptance.EncodingAcceptance.test_byte_order_and_ascii_control_characters) ... ok
+test_invalid_width_character_base_and_hex_bytes (test_acceptance.EncodingAcceptance.test_invalid_width_character_base_and_hex_bytes) ... ok
+test_leading_zero_binary_prefix_and_whitespace (test_acceptance.EncodingAcceptance.test_leading_zero_binary_prefix_and_whitespace) ... ok
+test_padding_known_bytes_and_rejection (test_acceptance.EncodingAcceptance.test_padding_known_bytes_and_rejection) ... ok
+test_ascii_lengths_and_single_padding_for_all_schemes (test_acceptance.ModesAcceptance.test_ascii_lengths_and_single_padding_for_all_schemes) ... ok
+test_cbc_first_middle_last_xor_and_replacement_propagation (test_acceptance.ModesAcceptance.test_cbc_first_middle_last_xor_and_replacement_propagation) ... ok
+test_cbc_independent_chain_and_roundtrip (test_acceptance.ModesAcceptance.test_cbc_independent_chain_and_roundtrip) ... ok
+test_cbc_iv_changes_first_chain_and_wrong_iv_only_first_plain_block (test_acceptance.ModesAcceptance.test_cbc_iv_changes_first_chain_and_wrong_iv_only_first_plain_block) ... ok
+test_cbc_tampering_invalid_index_noop_and_invalid_cipher (test_acceptance.ModesAcceptance.test_cbc_tampering_invalid_index_noop_and_invalid_cipher) ... ok
+test_ee_eee_independent_layer_order_and_inverse (test_acceptance.ModesAcceptance.test_ee_eee_independent_layer_order_and_inverse) ... ok
+test_unpadded_mode_and_invalid_inputs (test_acceptance.ModesAcceptance.test_unpadded_mode_and_invalid_inputs) ... ok
+test_snapshot_independent_of_changed_input_and_dataclass_bytes (test_acceptance.RecordsAcceptance.test_snapshot_independent_of_changed_input_and_dataclass_bytes) ... ok
+test_ascii_whitespace_empty_and_record_save (test_gui.GUIAcceptance.test_ascii_whitespace_empty_and_record_save) ... ok
+test_attack_thread_result_and_export (test_gui.GUIAcceptance.test_attack_thread_result_and_export) ... ok
+test_basic_hex_binary_decrypt_and_snapshot (test_gui.GUIAcceptance.test_basic_hex_binary_decrypt_and_snapshot) ... ok
+test_cbc_roundtrip_tamper_and_original_cipher_preserved (test_gui.GUIAcceptance.test_cbc_roundtrip_tamper_and_original_cipher_preserved) ... ok
+test_invalid_input_does_not_replace_successful_record (test_gui.GUIAcceptance.test_invalid_input_does_not_replace_successful_record) ... ok
+test_multi_eee_trace_and_decrypt (test_gui.GUIAcceptance.test_multi_eee_trace_and_decrypt) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 10.476s
+
+OK

@@ -1,0 +1,14 @@
+[
+  {
+    "iv_hex": "CA68",
+    "ciphertext_hex": "33DA73332FD5FDA2F7B5DC45260AD5D09922"
+  },
+  {
+    "iv_hex": "653E",
+    "ciphertext_hex": "995E01A7C44FD85B72E11D61C201D9B4251C"
+  },
+  {
+    "iv_hex": "1874",
+    "ciphertext_hex": "DBB2B92F6CF1F5C4CB28BF759059E5A44B60"
+  }
+]

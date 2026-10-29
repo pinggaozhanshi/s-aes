@@ -1,0 +1,51 @@
+{
+  "plaintext_hex": "A749",
+  "plaintext_bin": "1010011101001001",
+  "key_hex": "2D55",
+  "key_bin": "0010110101010101",
+  "round_keys_hex": [
+    "2D55",
+    "BCE9",
+    "A34A"
+  ],
+  "ciphertext_hex": "C349",
+  "recovered_hex": "A749",
+  "trace": [
+    {
+      "operation": "输入明文",
+      "state_hex": "A749"
+    },
+    {
+      "operation": "轮密钥加 K0",
+      "state_hex": "8A1C"
+    },
+    {
+      "operation": "第1轮：半字节替换",
+      "state_hex": "604C"
+    },
+    {
+      "operation": "第1轮：行移位",
+      "state_hex": "6C40"
+    },
+    {
+      "operation": "第1轮：列混淆",
+      "state_hex": "3743"
+    },
+    {
+      "operation": "第1轮：轮密钥加 K1",
+      "state_hex": "8BAA"
+    },
+    {
+      "operation": "第2轮：半字节替换",
+      "state_hex": "6300"
+    },
+    {
+      "operation": "第2轮：行移位",
+      "state_hex": "6003"
+    },
+    {
+      "operation": "第2轮：轮密钥加 K2／输出密文",
+      "state_hex": "C349"
+    }
+  ]
+}

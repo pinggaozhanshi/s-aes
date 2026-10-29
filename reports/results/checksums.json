@@ -1,0 +1,72 @@
+[
+  {
+    "file": "ascii.json",
+    "bytes": 1288,
+    "sha256": "aac73c065edcf86f1fa21ed8ecc16faf78ed4d994feaf858d5051642958d8d4c"
+  },
+  {
+    "file": "attacks.json",
+    "bytes": 1460,
+    "sha256": "635e620b9922962b97dfb710f84db89131c6fec702e44f52256cf892cfeede2a"
+  },
+  {
+    "file": "basic.json",
+    "bytes": 1065,
+    "sha256": "e9650e5068302f52ce8607b78caa8fb2e8b0a0f366e4602efc1f3d87fa76d67c"
+  },
+  {
+    "file": "cbc-tampering.csv",
+    "bytes": 2098,
+    "sha256": "eb891dfd93289fca949bb7f89ff1bf4c94539de5ad898fef6ab2c7b76853dbd3"
+  },
+  {
+    "file": "cbc-tampering.json",
+    "bytes": 2675,
+    "sha256": "3fdc97a10c19e7321ffe722ab461f670fd8cee95eecf693b49fd613b61809870"
+  },
+  {
+    "file": "cbc.json",
+    "bytes": 2896,
+    "sha256": "ecedb6e3119a9af79ee2cec3e302c00b21fba75477ef5f13a76256ee117960c6"
+  },
+  {
+    "file": "cross-test-vectors.csv",
+    "bytes": 1087,
+    "sha256": "4fdb755c1f19f8a9fa2b430b1f586f2ef7bab752d70ec62b640cc7a8c8d4b468"
+  },
+  {
+    "file": "mitm-1-pairs.csv",
+    "bytes": 1300955,
+    "sha256": "6d9e68d28871b000045f74e0453d276f8e49bd45513e3fe942a08fd9767ba612"
+  },
+  {
+    "file": "mitm-2-pairs.csv",
+    "bytes": 95,
+    "sha256": "a21a8cd8022d9ee5c3ae7ffd34c91ea863f827763411cf4038f308ac95850c9e"
+  },
+  {
+    "file": "mitm-3-pairs.csv",
+    "bytes": 55,
+    "sha256": "a1e2d74b6fe53b3c64ceeaa2b888507b00a76ac51e5d748487df69b3f65606f6"
+  },
+  {
+    "file": "multiple.json",
+    "bytes": 310,
+    "sha256": "f42e70ee49188094b1798d97fc6ff16a6d7902a5eacb6795fc1d9e2aa8c0faf2"
+  },
+  {
+    "file": "random-iv.json",
+    "bytes": 293,
+    "sha256": "6ac7e2e20fc155a899476ea925862e7351b4cf8c46afc0c0edf21a27440ee0c4"
+  },
+  {
+    "file": "summary.json",
+    "bytes": 938,
+    "sha256": "ddf3d66d6c5637033c1f88933f33e0ded4f55f01f1e8066d85e7f5b99b33e3c4"
+  },
+  {
+    "file": "unittest.txt",
+    "bytes": 4198,
+    "sha256": "7f568afed4e213decaa6217ba0b9f26f3ba29d453fcc1b1eb23830022bb1b5d2"
+  }
+]

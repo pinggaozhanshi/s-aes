@@ -1,0 +1,16 @@
+[
+  {
+    "scheme": "EE",
+    "plaintext_hex": "A749",
+    "key_hex": "2D551234",
+    "ciphertext_hex": "C3A1",
+    "recovered_hex": "A749"
+  },
+  {
+    "scheme": "EEE",
+    "plaintext_hex": "A749",
+    "key_hex": "2D551234ABCD",
+    "ciphertext_hex": "BE4A",
+    "recovered_hex": "A749"
+  }
+]

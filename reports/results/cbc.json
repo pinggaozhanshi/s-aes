@@ -1,0 +1,138 @@
+{
+  "plaintext": "Hello S-AES CBC!",
+  "key_hex": "2D55",
+  "iv_hex": "1234",
+  "padded_hex": "48656C6C6F20532D41455320434243210202",
+  "ciphertext_hex": "DCD2BC8F61D1FC04C828B26599B9E1544EB0",
+  "recovered": "Hello S-AES CBC!",
+  "encrypt_trace": [
+    {
+      "index": 0,
+      "input_block": 18533,
+      "chain": 4660,
+      "intermediate": 23121,
+      "output_block": 56530
+    },
+    {
+      "index": 1,
+      "input_block": 27756,
+      "chain": 56530,
+      "intermediate": 45246,
+      "output_block": 48271
+    },
+    {
+      "index": 2,
+      "input_block": 28448,
+      "chain": 48271,
+      "intermediate": 54191,
+      "output_block": 25041
+    },
+    {
+      "index": 3,
+      "input_block": 21293,
+      "chain": 25041,
+      "intermediate": 13052,
+      "output_block": 64516
+    },
+    {
+      "index": 4,
+      "input_block": 16709,
+      "chain": 64516,
+      "intermediate": 48449,
+      "output_block": 51240
+    },
+    {
+      "index": 5,
+      "input_block": 21280,
+      "chain": 51240,
+      "intermediate": 39688,
+      "output_block": 45669
+    },
+    {
+      "index": 6,
+      "input_block": 17218,
+      "chain": 45669,
+      "intermediate": 61735,
+      "output_block": 39353
+    },
+    {
+      "index": 7,
+      "input_block": 17185,
+      "chain": 39353,
+      "intermediate": 55960,
+      "output_block": 57684
+    },
+    {
+      "index": 8,
+      "input_block": 514,
+      "chain": 57684,
+      "intermediate": 58198,
+      "output_block": 20144
+    }
+  ],
+  "decrypt_trace": [
+    {
+      "index": 0,
+      "input_block": 56530,
+      "chain": 4660,
+      "intermediate": 23121,
+      "output_block": 18533
+    },
+    {
+      "index": 1,
+      "input_block": 48271,
+      "chain": 56530,
+      "intermediate": 45246,
+      "output_block": 27756
+    },
+    {
+      "index": 2,
+      "input_block": 25041,
+      "chain": 48271,
+      "intermediate": 54191,
+      "output_block": 28448
+    },
+    {
+      "index": 3,
+      "input_block": 64516,
+      "chain": 25041,
+      "intermediate": 13052,
+      "output_block": 21293
+    },
+    {
+      "index": 4,
+      "input_block": 51240,
+      "chain": 64516,
+      "intermediate": 48449,
+      "output_block": 16709
+    },
+    {
+      "index": 5,
+      "input_block": 45669,
+      "chain": 51240,
+      "intermediate": 39688,
+      "output_block": 21280
+    },
+    {
+      "index": 6,
+      "input_block": 39353,
+      "chain": 45669,
+      "intermediate": 61735,
+      "output_block": 17218
+    },
+    {
+      "index": 7,
+      "input_block": 57684,
+      "chain": 39353,
+      "intermediate": 55960,
+      "output_block": 17185
+    },
+    {
+      "index": 8,
+      "input_block": 20144,
+      "chain": 57684,
+      "intermediate": 58198,
+      "output_block": 514
+    }
+  ]
+}

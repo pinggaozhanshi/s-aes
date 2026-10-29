@@ -1,0 +1,62 @@
+[
+  {
+    "known_pairs": [
+      {
+        "plaintext_hex": "A749",
+        "ciphertext_hex": "C3A1"
+      }
+    ],
+    "pair_count": 1,
+    "elapsed_seconds": 0.40797559999964506,
+    "forward_evaluations": 65536,
+    "backward_evaluations": 65536,
+    "candidate_count": 65046,
+    "search_complete": true,
+    "actual_key_retained": true,
+    "candidates_csv": "mitm-1-pairs.csv"
+  },
+  {
+    "known_pairs": [
+      {
+        "plaintext_hex": "A749",
+        "ciphertext_hex": "C3A1"
+      },
+      {
+        "plaintext_hex": "1234",
+        "ciphertext_hex": "50A9"
+      }
+    ],
+    "pair_count": 2,
+    "elapsed_seconds": 0.7670037999996566,
+    "forward_evaluations": 65536,
+    "backward_evaluations": 65536,
+    "candidate_count": 3,
+    "search_complete": true,
+    "actual_key_retained": true,
+    "candidates_csv": "mitm-2-pairs.csv"
+  },
+  {
+    "known_pairs": [
+      {
+        "plaintext_hex": "A749",
+        "ciphertext_hex": "C3A1"
+      },
+      {
+        "plaintext_hex": "1234",
+        "ciphertext_hex": "50A9"
+      },
+      {
+        "plaintext_hex": "0000",
+        "ciphertext_hex": "05C7"
+      }
+    ],
+    "pair_count": 3,
+    "elapsed_seconds": 0.84933860000001,
+    "forward_evaluations": 65536,
+    "backward_evaluations": 65536,
+    "candidate_count": 1,
+    "search_complete": true,
+    "actual_key_retained": true,
+    "candidates_csv": "mitm-3-pairs.csv"
+  }
+]
